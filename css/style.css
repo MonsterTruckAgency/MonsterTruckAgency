@@ -39,6 +39,7 @@ main {
     transition-duration: .6s;
     -webkit-transition-property: top, bottom;
     -webkit-transition-duration: 2s;
+	
 }
 .movebottom{
 	top:58vh!important;
@@ -1221,6 +1222,8 @@ object {
 	height:50vh;
 	position:absolute;
 	z-index: -1;
+	top: 50%;
+
 	
 }
 

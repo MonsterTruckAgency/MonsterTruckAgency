@@ -146,7 +146,7 @@ function loadHeader(){
 		var container = document.querySelector('.menu')
 			, content = document.querySelector('.content');
 		console.log(container);
-		var containermob = document.querySelector('.nav');
+		var containermob = document.querySelector('#headermobile');
 		console.log(containermob);
 		
 		$(".minitruck img").click(function (event) {
@@ -221,7 +221,7 @@ function resetMobilemenu(){
 	$('.button').removeClass('open');
 	$('.accordiontarget').removeClass('accordionopen');
 	$('.accordionmove').removeClass('move');
-	$('#main').removeClass('animatemain');	
+	
 	
 }
 
