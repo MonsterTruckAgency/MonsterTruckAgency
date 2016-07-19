@@ -52,11 +52,18 @@ $(document).ready(function () {
 	
 	$('#button').click(function(){
 		
-		
+		$('.nav').toggleClass('navopen');
 		$('#main').toggleClass('animatemain');
 	
 		 
 	 });
+    
+       $('.navopen li a ').click(function(e){   
+           console.log($('.navopen li a '));
+          
+           $('#main').addClass('animatemain');
+    
+    });
     
      $('.accordion').click(function(){
 		

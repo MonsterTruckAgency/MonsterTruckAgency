@@ -1149,15 +1149,26 @@ object {
 
 
 /**** ************************ Headermobile.HTML****************************/
+#headerwrap {
+   
+    display: inline-block;
+    text-align: left;
+    padding: 3%;
+}
 
+#homelogo{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
 .button {
 	z-index: 1000;
 	width: 50px;
-	height: 50px;
 	box-sizing: border-box;
-	margin-top: 2%;
 	-webkit-tap-highlight-color: transparent;
-	margin-left: 5%;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
 	/**/
 }
 
@@ -1213,9 +1224,10 @@ object {
 	
 }
 
-.open + .nav {
+.navopen {
 	transform: none;
 	opacity: 1;
+  
 }
 
 code {
@@ -1422,7 +1434,7 @@ transition-duration: 0.5s;
 }
 
 .minitruckmobile img{
-	max-width: 12%!important;
+	max-width: 25%!important;
 }
 
 /**** ************************ Headermobile.HTML display****************************/
@@ -1464,8 +1476,5 @@ transition-duration: 0.5s;
 	.move:last-child{
     margin-top: 3%;
 }
-	.nav{
-		height: 85vh !important;
-	}
 	
 }
