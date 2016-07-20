@@ -107,20 +107,18 @@ function loadPage(file) {
 					, cache: false
 				})
 				.done(function (html) {
-
+					window.scrollTo(0,0); 
 					$("#main").html(html);
 					$('footer').show();
 					
 					var currentHisto = history.state;
-					console.log(currentHisto);
 					
 					var pageurl = displayUrl(file);
 				
 					if (currentHisto !== pageurl) {
-						console.log("aha")
+						
 					history.pushState(pageurl, null, pageurl);
 					
-					console.log(history.state);
 					};
 				
 					if (file == "/pages/home.html") {
@@ -158,12 +156,12 @@ function loadHeader(){
 			
 			if (e.target != e.currentTarget) {
 				e.preventDefault();
-				console.log(e.target);
+				
 				var data = e.target.getAttribute('data-url')
 					, url = data + ".html";
 				/*addCurrentClass(data)*/
 				;
-				console.log(data);
+				
 				var dispUr = displayUrl(data);
 				
 				
