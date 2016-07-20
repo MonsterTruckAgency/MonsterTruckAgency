@@ -1219,10 +1219,10 @@ object {
 	opacity: 0;
 	transform: translateY(-100%);
 	transition: .6s;
-	height:50vh;
+	height:100vh;
 	position:absolute;
 	z-index: -1;
-	top: 50%;
+	top: 120%;
 
 	
 }
@@ -1272,13 +1272,14 @@ code {
 	font-weight: 100;
 	color: #cec6c8;
 	margin: 0 10% 0 10%;
-	font-size: 3rem;
+	font-size: 1.8rem;
 }
 
 .nav a:hover {
 	color: #e26b63;
 	text-decoration: none;
 	transition: .6s;
+
 }
 
 #me a {
@@ -1338,7 +1339,7 @@ a:hover {
 }
 
 .accordiontarget a{
-	font-size: 2rem;
+	font-size: 1rem;
 	padding:0;
 	padding-top: 2%;
 	

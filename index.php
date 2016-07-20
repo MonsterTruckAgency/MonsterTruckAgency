@@ -8,7 +8,7 @@
     <meta name="keywords" content="design, webdesign, codding, html, css, php, javascript, wordpress, graphic design, art, photos, illustrator, photoshop, paris, mexico, english, painting, htlm5, css3, javascript, php, creation, redesign, french, spanish, angency, web angency ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Monstertruck Web agency-webdesigners-developers-creatives-paris-artists-photographers-painteres-designeres-web-mobilefirst-wordpress-UX-UI</title>
+    <title>Monstertruck Web Agency a Paris France, webdesign, development, responsive, UX/UI, Wordpress, Html5, Css3, Javascript, PHP, JQuery, Ajax, Illustrator, Photoshop, Gifs, InDesign, Sketch, frameworks, plugins, Anglais, Spagnole, Française</title>
     <link rel="stylesheet" href="../css/reset.css"/>
 	<link rel="stylesheet" href="../css/load.css"/>
 	 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
