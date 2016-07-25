@@ -25,8 +25,8 @@
 
 	//send email//
      $to      = 'contact@monstertruckagency.com';
-     $subject = 'contact site web'
-     $message = 'from'.$_POST['u_name'].''.$_POST['u_email'].$_POST['message'];
+     $subject = 'contact site web';
+     $message = 'from: '.' '.$_POST['u_name'] . ' ' . $_POST['u_email'] . ' ' . $_POST['message'];
     
 
      mail($to, $subject, $message, $headers);
