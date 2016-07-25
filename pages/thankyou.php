@@ -1,5 +1,5 @@
 <?php
-
+	// write in databse//
 
    	$host = 'db631353762.db.1and1.com';
 	$dbname = 'db631353762';
@@ -22,6 +22,15 @@
 	'u_email' => $_POST['u_email'],
 	'message' => $_POST['message'],
 	));
+
+	//send email//
+     $to      = 'contact@monstertruckagency.com';
+     $subject = 'contact site web'
+     $message = 'from'.$_POST['u_name'].''.$_POST['u_email'].$_POST['message'];
+    
+
+     mail($to, $subject, $message, $headers);
+ 
 
 	echo '<div id="outputmessage">Miauuu!</div>';
 ?>

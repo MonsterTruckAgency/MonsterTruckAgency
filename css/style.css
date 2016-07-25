@@ -569,6 +569,16 @@ h1 p {
     #team {
     padding-bottom: 7%;
 }
+	.h1home {
+    font-size: 9.5vw;
+    text-align: center;
+    font-weight: bold;
+    text-align: center;
+    color: #cec6c8;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    padding-bottom: 1.5%;
+    font-weight: 100;
+}
 
 }
 
@@ -585,8 +595,25 @@ h1 p {
      #team {
     padding-bottom: 7%;
 }
+	#truckwrap{
+		overflow: visible;
+	}
+	.entete {
+    top: 100%;
+    
+}
 	
-	/******** contact ********/
+	#truckwrap .community {
+    top: 144% !important;
+}
+	.community {
+    font-size: 5.6vw !important;
+}
+	.community a {
+    margin: 4%;
+}
+	/********@
+	contact ********/
 	
 	#contactform textarea {
 
@@ -629,9 +656,7 @@ h1 p {
 	line-height: 2rem !important;
 	
 }
-	.community {
-    font-size: 4.3vw !important;
-	}
+	
 	
 	.title h1{
 		font-size: 3rem;
@@ -1456,9 +1481,7 @@ transition-duration: 0.5s;
 	#truckwrap{
 		margin-top: 10%;
 	}
-	#truckwrap .community {
-		top: 80%;
-	}
+
 	
 	.accordionopen {
     bottom: 40vh !important;
