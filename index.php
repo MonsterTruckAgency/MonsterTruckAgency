@@ -26,6 +26,7 @@
     rel="stylesheet">
 	 <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<link href="../css/style.css" rel="stylesheet">
+	 <script src="../js/ga.js"></script>
 	<script src="../js/load.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
