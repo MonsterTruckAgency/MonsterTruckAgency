@@ -51,7 +51,9 @@ header {
 	width: 100vw;
 	background: #231f20;
 	z-index: 100;
-	text-align: center
+	text-align: center;
+	position:fixed;
+	padding-bottom: 2vw;
 }
 
 header ul {
