@@ -179,7 +179,9 @@ a:hover {
 	height: 100vh;
 	bottom: 0.1%;
 	opacity: 0.9;
-	overflow: hidden;
+	overflow-x:hidden;
+	overflow-y: visible;
+	
 }
 
 #fond img {
@@ -570,7 +572,12 @@ h1 p {
     #team {
     padding-bottom: 7%;
 }
-	.h1home {
+
+
+}
+
+@media (max-width: 800px) {
+ 	.h1home {
     font-size: 9.5vw;
     text-align: center;
     font-weight: bold;
@@ -579,12 +586,7 @@ h1 p {
     font-family: 'Alegreya Sans SC', sans-serif;
     padding-bottom: 1.5%;
     font-weight: 100;
-}
-
-}
-
-@media (max-width: 800px) {
-   
+}  
 .picture {
 	height: 60%;
 	}
