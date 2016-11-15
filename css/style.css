@@ -19,7 +19,7 @@ body {
 }
 
 main {
-	padding-top: 0%;
+	padding-top: 3%;
 	padding-bottom: 0%;
 	transition-property: top,bottom;
     transition-duration: .6s;
