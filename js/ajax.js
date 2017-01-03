@@ -110,7 +110,7 @@ function loadPage(file) {
 					window.scrollTo(0,0); 
 					$("#main").html(html);
 					
-					
+					$('footer').show();
 					var currentHisto = history.state;
 					
 					var pageurl = displayUrl(file);

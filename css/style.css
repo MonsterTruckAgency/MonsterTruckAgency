@@ -53,7 +53,7 @@ header {
 	z-index: 100;
 	text-align: center;
 	position:fixed;
-	padding-bottom: 2vw;
+	background-color:#231f20;
 }
 
 header ul {
