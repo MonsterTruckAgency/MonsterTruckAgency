@@ -109,7 +109,7 @@ function loadPage(file) {
 				.done(function (html) {
 					window.scrollTo(0,0); 
 					$("#main").html(html);
-					$('footer').show();
+					
 					
 					var currentHisto = history.state;
 					
@@ -225,8 +225,7 @@ function resetMobilemenu(){
 
 
 function loadHome() {
-
-	$('footer').hide();
+    $('footer').hide();
 	$.getScript("../js/backgroundslider.js", function () { /* for slider**/
 		stopLoop();
 		startLoop();

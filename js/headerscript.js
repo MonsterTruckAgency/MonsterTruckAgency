@@ -18,7 +18,6 @@ $(document).ready(function () {
 		}
 	});
 	$('.projectmenu a').click(function () {
-		
 		$('.projectmenu').removeClass('menuopen');
 	});
 	$('.accordion').click(function () {
@@ -27,14 +26,18 @@ $(document).ready(function () {
 	});
 	$('#button').click(function () {
 		var mo = $('body').css('overflow');
-		console.log(mo);
-		if ( mo === "hidden"){ 
-			alert();
-			$('body').css('overflow','visible');}
-			else {$('body').css('overflow','hidden');}
-		
+	
+		if (mo === "hidden") {
+			$('body').css('overflow', 'visible');
+		}
+		else {
+			$('body').css('overflow', 'hidden');
+		}
 		$('.nav').toggleClass('navopen');
+		
+		$('footer').hide();
 		$('#main').toggleClass('animatemain');
+		
 	});
 	var mobilenavlinks = $('#headermobile li a');
 	mobilenavlinks.click(function (event) {
@@ -42,9 +45,12 @@ $(document).ready(function () {
 		console.log(targ);
 		if (targ.hasClass('accordion')) {}
 		else if (targ.not('.accordion')) {
-			$('body').css('overflow','visible');
+			$('footer').show();
+			$('body').css('overflow', 'visible');
 			$('#main').removeClass('animatemain');
 			$('.nav').toggleClass('navopen');
+			
+			
 		}
 	});
 	$('#homelogo a').click(function () {
