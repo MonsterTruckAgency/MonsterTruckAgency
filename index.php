@@ -1,14 +1,14 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head profile="http://isabelleteran.com/favicon.ico">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Web and graphic designer Paris- France. Development, Wordpress, mobile first, UX, SEO, UI  artist since 2000 <br/>Creative webdesigner born in mexico and based in paris. Creat your sites in html5 css3 javascript php and wordpress, mockup design SEO UX UI mobile first photoshop illustrator sketch indesign">
-    <meta name="keywords" content="design, webdesign, codding, html, css, php, javascript, wordpress, graphic design, art, photos, illustrator, photoshop, paris, mexico, english, painting, htlm5, css3, javascript, php, creation, redesign, french, spanish, angency, web angency ">
+    <meta name="description" content="Agence de design et de développement Web & Mobile basée à Paris, France">
+    <meta name="keywords" content="design, webdesign, code, html, css, php, javascript, wordpress, design graphique, art, photos, illustrator, photoshop, paris, mexico, english, peinture, htlm5, css3, javascript, création, redesign, français, anglais, agence, web, angular, mobile, responsive,France,ajax, ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Monstertruck Web Agency a Paris France, webdesign, development, responsive, UX/UI, Wordpress, Html5, Css3, Javascript, PHP, JQuery, Ajax, Illustrator, Photoshop, Gifs, InDesign, Sketch, frameworks, plugins, Anglais, Spagnole, Française</title>
+    <title> Agence Monster Truck, design et développement Web et Mobile</title>
     <link rel="stylesheet" href="../css/reset.css"/>
 	<link rel="stylesheet" href="../css/load.css"/>
 	 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
